@@ -45,7 +45,7 @@ gulp.task('mjml', function(){
             }
         }))
         .pipe(rename({ extname: '.html' }))
-        .pipe(gulp.dest('dist/*.html'))
+        .pipe(gulp.dest('dist'))
         .on('end', () => console.log('MJML task completed.'));
 });
 

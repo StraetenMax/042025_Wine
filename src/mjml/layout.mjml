@@ -11,6 +11,17 @@
                 <mj-image src="./images/fa8f8d79-b185-486e-a8d8-4ebdb1fe0e9c.jpg">
             </mj-column> 
         </mj-section>
+        <mj-section background-color="#ffffff">
+            <mj-column>
+                <mj-text align="center" color="#8D8767">meilleure qualité</mj-text>
+                <mj-text>Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text align="center" color="#8D8767">haute performance</mj-text>
+                <mj-text>Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
+            </mj-column>
+        </mj-section>
+
 
     </mj-body>
 </mjml>

@@ -3,6 +3,7 @@ const gulp = require('gulp');
 const mjml = require('mjml');
 const rename = require('gulp-rename');
 const through2 = require('through2');
+const liveServer = require('live-server');
 const nunjucksRender = require('gulp-nunjucks-render');
 const data = require('gulp-data');
 const fs = require('fs');
@@ -13,6 +14,18 @@ function handleError (err) {
     console.log(err.toString());
     this.emit('end');
   }
+
+//Tâche pour démarrer le serveur de développement
+gulp.task('serve', function(){
+    const params = {
+        port: 8080,
+        root: 'dist',
+        open: true,
+        file: 'layout.html',
+        wait: 1000
+    };
+    liveServer.start(params);
+});
 
 //Tâche pour rendre le template Nunjucks avec les données JSON
 gulp.task('nunjucks', function() {
@@ -50,4 +63,4 @@ gulp.task('mjml', function(){
 });
 
 //Tâche par défaut
-gulp.task('default', gulp.series('nunjucks', 'mjml'));
+gulp.task('default', gulp.series('nunjucks', 'mjml','serve'));

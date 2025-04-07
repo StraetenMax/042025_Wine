@@ -23,9 +23,15 @@ gulp.task('nunjucks', function() {
 
 //Tâche pour compiler MJML en HTML
 gulp.task('mjml', function(){
+    console.log('Starting mjml task...');
     return gulp.src('dist/layout.mjml',{ allowEmpty: true } )
-        .pipe(mjml())
-        .pipe(gulp.dest('dist'));
+        .pipe(mjml({
+            beautify: false,
+            validationLevel: 'strict',
+            keepComments: false
+        }))
+        .pipe(gulp.dest('dist'))
+        .on('end', () => console.log('MJML task completed.'));
 });
 
 //Tâche par défaut

@@ -15,4 +15,18 @@ gulp.task('nunjucks', function() {
                 breves: JSON.parse(fs.readFileSync('src/json/breves.json', 'utf8')),
             };
         }))
-})
+        .pipe(nunjucksRender({
+            path: ['src/mjml']
+        }))
+        .pipe(gulp.dest('dist'));
+});
+
+//Tâche pour compiler MJML en HTML
+gulp.task('mjml', function(){
+    return gulp.src('dist/layout.mjml')
+        .pipe(mjml())
+        .pipe(gulp.dest('dist'));
+});
+
+//Tâche par défaut
+gulp.task('default', gulp.series('nunjucks', 'mjml'));

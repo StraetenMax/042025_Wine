@@ -16,7 +16,7 @@ function handleError (err) {
 
 //Tâche pour rendre le template Nunjucks avec les données JSON
 gulp.task('nunjucks', function() {
-    return gulp.src('src/mjml/layout.njk')
+    return gulp.src('src/njk/layout.njk')
         /*.pipe(data(function(){
             return{
                 articles: JSON.parse(fs.readFileSync('src/json/articles.json', 'utf8')),
@@ -25,28 +25,27 @@ gulp.task('nunjucks', function() {
             };
         }))*/
         .pipe(nunjucksRender({
-            path: ['src/mjml']
+            path: ['src/njk']
         }))
-        .pipe(gulp.dest('dist'));
+        .pipe(rename({ extname: '.mjml' }))
+        .pipe(gulp.dest('src/mjml'));
 });
 
 //Tâche pour compiler MJML en HTML
 gulp.task('mjml', function(){
     console.log('Starting mjml task...');
-    return gulp.src('dist/layout.mjml', { allowEmpty: true } )
-        /*.pipe(mjml(mjmlEngine, {
-            beautify: false,
-            validationLevel: 'strict',
-            keepComments: false
-        }))
-        .on('error', handleError)*/
+    return gulp.src('src/mjml/layout.mjml', { allowEmpty: true })
         .pipe(through2.obj(function(file, _, cb) {
-            const { html } = mjml(file.contents.toString());
-            file.contents = Buffer.from(html);
-            cb(null, file);
-          }))
+            try {
+                const { html } = mjml(file.contents.toString());
+                file.contents = Buffer.from(html);
+                cb(null, file);
+            } catch (err) {
+                handleError.call(this, err);
+            }
+        }))
         .pipe(rename({ extname: '.html' }))
-        .pipe(gulp.dest('dist'))
+        .pipe(gulp.dest('dist/*.html'))
         .on('end', () => console.log('MJML task completed.'));
 });
 

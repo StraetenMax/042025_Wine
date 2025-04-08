@@ -1,27 +1,44 @@
 <mjml>
     <mj-head>
         <mj-title>vente de vins</mj-title>
+        <mj-raw>
+        </mj-raw>
         <mj-attributes>
+            
+            <mj-class name="T20-400" font-family="Georgia, serif" font-size="20px" font-weight="400" line-height="24px"/>
+            <mj-class name="T16-400" font-family="Georgia, serif" font-size="16px" font-weight="400" line-height="20px"/>
+            
+            <mj-class name="cT" color="#8D8767"/>
             <mj-class name="cBlack" color="#140f09"/>
         </mj-attributes>
     </mj-head>
     <mj-body background-color="#140f09">
-        <mj-section>
+        
+        
+        <mj-section padding="0">
             <mj-column>
-                <mj-image src="./images/fa8f8d79-b185-486e-a8d8-4ebdb1fe0e9c.jpg">
+                <mj-image padding="0" width="600px" src="./images/fa8f8d79-b185-486e-a8d8-4ebdb1fe0e9c.jpg">
             </mj-column> 
         </mj-section>
         <mj-section background-color="#ffffff">
             <mj-column>
-                <mj-text align="center" color="#8D8767">meilleure qualité</mj-text>
-                <mj-text>Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
+                <mj-text align="center" mj-class="T20-400 cT">meilleure qualité</mj-text>
+                <mj-text mj-class="T16-400 cT">Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
             </mj-column>
             <mj-column>
-                <mj-text align="center" color="#8D8767">haute performance</mj-text>
-                <mj-text>Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
+                <mj-text align="center" mj-class="T20-400 cT">haute performance</mj-text>
+                <mj-text mj-class="T16-400 cT">Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
             </mj-column>
         </mj-section>
-
-
+        
+        <mj-section background-color="#ffffff">
+            <mj-column width="33.333333%">
+                <mj-image src="./images/2822306c-cb6f-479f-9eb0-a7ec06838c52.jpg" />
+                <mj-text></mj-text>
+                <mj-text></mj-text>
+                <mj-button border-width="1px" border-style="solid" border-radius="2px" background-color="transparent"></mj-button>
+            </mj-column>
+        </mj-section>
+        
     </mj-body>
 </mjml>

@@ -62,5 +62,11 @@ gulp.task('mjml', function(){
         .on('end', () => console.log('MJML task completed.'));
 });
 
+//Tâche pour surveiller les fichiers
+gulp.task('watch', function(){
+    gulp.watch('src/mjml/**/*.njk', gulp.series('nunjucks', 'mjml'));
+    gulp.watch('dist/*.mjml', gulp.series('mjml'));
+});
+
 //Tâche par défaut
-gulp.task('default', gulp.series('nunjucks', 'mjml','serve'));
+gulp.task('default', gulp.series('nunjucks', 'mjml', gulp.parallel('serve', 'watch')));

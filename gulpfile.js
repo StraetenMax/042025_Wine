@@ -62,6 +62,29 @@ gulp.task('mjml', function(){
         .on('end', () => console.log('MJML task completed.'));
 });
 
+//Tâche pour calculer le poids des fichiers dans le dossier dist
+gulp.task('file-sizes', function(done){
+    const directoryPath = path.join(__dirname, 'dist');
+    fs.readdir(directoryPath, function(err, files){
+        if(err){
+            return console.log('Unable to scan directory: ' + err);
+        }
+        files.forEach(function(file){
+            const filePath = path.join(directoryPath, file);
+            fs.stat(filePath, function(err, stats){
+                if(err){
+                    return console.log('Unable to get file stats: ' + err);
+                }
+                if(stats.isFile()){
+                    const fileSizeInkB = stats.size / 1024; 
+                    console.log(`${file}: ${fileSizeInkB.toFixed(2)} ko`);
+                }
+            });
+        });
+    });
+    done();
+});
+
 //Tâche pour surveiller les fichiers
 gulp.task('watch', function(){
     gulp.watch('src/mjml/**/*.njk', gulp.series('nunjucks', 'mjml'));
@@ -69,4 +92,4 @@ gulp.task('watch', function(){
 });
 
 //Tâche par défaut
-gulp.task('default', gulp.series('nunjucks', 'mjml', gulp.parallel('serve', 'watch')));
+gulp.task('default', gulp.series('nunjucks', 'mjml', gulp.parallel('serve', 'watch', 'file-sizes')));

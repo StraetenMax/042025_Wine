@@ -32,7 +32,7 @@ gulp.task('nunjucks', function() {
     return gulp.src('src/njk/layout.njk')
         /*.pipe(data(function(){
             return{
-                articles: JSON.parse(fs.readFileSync('src/json/articles.json', 'utf8')),
+                beers: JSON.parse(fs.readFileSync('src/json/articles.json', 'utf8')),
                 logos: JSON.parse(fs.readFileSync('src/json/logos.json', 'utf8')),
                 breves: JSON.parse(fs.readFileSync('src/json/breves.json', 'utf8')),
             };

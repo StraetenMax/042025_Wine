@@ -7,9 +7,9 @@
             {# typographies Email #}
             <mj-class name="T24-700" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="700" line-height="28px"/>
             <mj-class name="T20-400" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="400" line-height="24px"/>
-            <mj-class name="T16-400" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" line-height="20px"/>
+            <mj-class name="T16-300" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" line-height="20px"/>
             {# couleur Email #}
-            <mj-class name="cT" color="#8D8767"/>
+            <mj-class name="cOrange" color="#ff5a00"/>
             <mj-class name="cBlack" color="#140f09"/>
         </mj-attributes>
     </mj-head>
@@ -28,40 +28,42 @@
         </mj-section>
         <mj-section background-color="#ffffff">
             <mj-column>
-                <mj-text align="center" mj-class="T20-400 cT">meilleure qualité</mj-text>
-                <mj-text mj-class="T16-400 cT">Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
+                <mj-text align="center" mj-class="T20-400 cOrange">meilleure qualité</mj-text>
+                <mj-text mj-class="T16-400 cBlack">Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
             </mj-column>
             <mj-column>
-                <mj-text align="center" mj-class="T20-400 cT">haute performance</mj-text>
-                <mj-text mj-class="T16-400 cT">Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
+                <mj-text align="center" mj-class="T20-400 cOrange">haute performance</mj-text>
+                <mj-text mj-class="T16-400 cBlack">Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
             </mj-column>
         </mj-section>
         {# Products #}
-        <mj-section background-color="#ffffff">
-            <mj-column>
-                <mj-text align="center" mj-class="T24-700 cT">Les promotions de la semaine</mj-text>
-            </mj-column>
-        </mj-section> 
-        <mj-section background-color="#ffffff">
-            <mj-column width="33.333333%">
-                <mj-image width="200px" src="./images/igorMill.jpg" />
-                <mj-text align="center" mj-class="T24-700">Igor Mill</mj-text>
-                <mj-text></mj-text>
-                <mj-button border-radius="2px" background-color="transparent">Acheter</mj-button>
-            </mj-column>
-            <mj-column width="33.333333%">
-                <mj-image width="200px" src="./images/jackMill.jpg" />
-                <mj-text align="center" mj-class="T24-700">Jack Mill</mj-text>
-                <mj-text>Bière Black IPA</mj-text>
-                <mj-button border-radius="2px" background-color="transparent">Acheter</mj-button>
-            </mj-column>
-            <mj-column width="33.333333%">
-                <mj-image width="200px" src="./images/blancheDulion.jpg" />
-                <mj-text align="center" mj-class="T24-700">Blanche</mj-text>
-                <mj-text></mj-text>
-                <mj-button border-radius="2px" background-color="#ffffff" color="#505050">Acheter</mj-button>
-            </mj-column>
-        </mj-section>
+        <mj-wrapper padding="30px" background-color="#ffffff">
+            <mj-section>
+                <mj-column>
+                    <mj-text align="center" mj-class="T24-700 cT">Les promotions de la semaine</mj-text>
+                </mj-column>
+            </mj-section> 
+            <mj-section>
+                <mj-column width="33.333333%">
+                    <mj-image width="200px" src="./images/igorMill.jpg" />
+                    <mj-text align="center" mj-class="T24-700">Igor Mill</mj-text>
+                    <mj-text align="center" mj-class="T16-400">Bière Imperial brut IPA</mj-text>
+                    <mj-button mj-class="T16-400 cOrange" border-radius="2px" container-background-color="#ffffff">J'en profite</mj-button>
+                </mj-column>
+                <mj-column width="33.333333%">
+                    <mj-image width="200px" src="./images/jackMill.jpg" />
+                    <mj-text align="center" mj-class="T24-700">Jack Mill</mj-text>
+                    <mj-text align="center" mj-class="T16-400">Bière Black IPA</mj-text>
+                    <mj-button border="2px" border-radius="2px" mj-class="T16-400" container-background-color="#ffffff">J'en profite</mj-button>
+                </mj-column>
+                <mj-column width="33.333333%">
+                    <mj-image width="200px" src="./images/blancheDulion.jpg" />
+                    <mj-text align="center" mj-class="T24-700">Blanche</mj-text>
+                    <mj-text align="center" mj-class="T16-400">Bière Blanche 100%</mj-text>
+                    <mj-button border="2px" border-radius="2px" mj-class="T16-400" container-background-color="transparent">J'en profite</mj-button>
+                </mj-column>
+            </mj-section>
+        </wrapper>
         {# Footer #}
     </mj-body>
 </mjml>

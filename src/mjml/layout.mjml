@@ -37,6 +37,11 @@
         </mj-section>
         
         <mj-section background-color="#ffffff">
+            <mj-column>
+                <mj-text align="center" mj-class="cT">Les promotions de la semaine</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#ffffff">
             <mj-column width="33.333333%">
                 <mj-image src="./images/2822306c-cb6f-479f-9eb0-a7ec06838c52.jpg" />
                 <mj-text></mj-text>

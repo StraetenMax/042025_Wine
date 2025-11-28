@@ -40,9 +40,7 @@ gulp.task('nunjucks', function() {
                 }
             };
             return{
-                beers: readJSON('src/json/articles.json'),
-                logos: readJSON('src/json/logos.json'),
-                breves: readJSON('src/json/breves.json'),
+                beers: readJSON('src/json/beers.json').beers,
             };
         }))
         .pipe(nunjucksRender({

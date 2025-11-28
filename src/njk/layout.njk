@@ -50,60 +50,22 @@
                 </mj-column>
             </mj-section> 
             <mj-section>
+            {% for beer in beers %}
                 <mj-group width="50%">  
                     <mj-column width="40%" vertical-align="middle">
-                        <mj-image padding="0" width="200px" src="./images/igorMill.jpg" />
+                        <mj-image padding="0" width="200px" src="{{ beer.image }}" />
                     </mj-column>
                     <mj-column width="60%" vertical-align="middle">
-                        <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Igor Mill</mj-text>
-                        <mj-text padding="0" align="left" mj-class="T16-300">Bière artisanale Imperial brut IPA</mj-text>
+                        <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">{{ beer.name }}</mj-text>
+                        <mj-text padding="0" align="left" mj-class="T16-300">{{ beer.description }}</mj-text>
                         <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-300"> Agriculture biologique</mj-text>
-                        <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 8% vol. - 33cl</mj-text>
+                        <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. {{ beer.alcohol_content }} - {{ beer.volume }}</mj-text>
                         <mj-button padding ="0" border-radius="0px" width="100%" mj-class="T14-700 cWhite bgOrange" >J'en profite</mj-button>
                     </mj-column>
                 </mj-group>
-                <mj-group width="50%" direction="rtl">
-                    <mj-column width="60%" vertical-align="middle">
-                        <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Jack Mill</mj-text>
-                        <mj-text padding="0" align="left" mj-class="T16-300">Bière artisanale Black IPA</mj-text>
-                        <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-300"> Agriculture biologique</mj-text>
-                        <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 7% vol. - 33cl</mj-text>
-                        <mj-button padding="0" border-radius="0px" width="100%" mj-class="T14-700 cWhite bgOrange">J'en profite</mj-button>
-                    </mj-column>
-                    <mj-column width="40%" vertical-align="middle">
-                        <mj-image padding="0" width="200px" src="./images/jackMill.jpg" />
-                    </mj-column>
-                </mj-group>
+            {% endfor %}
             </mj-section>
-            <mj-section>
-                <mj-column width="33.333333%">
-                        <mj-image width="200px" src="./images/blancheDulion.jpg" />
-                        <mj-text align="center" mj-class="T24-700">Blanche</mj-text>
-                        <mj-text align="center" mj-class="T16-300">Bière Blanche 100%</mj-text>
-                        <mj-button padding="0" border="2px" border-radius="2px" mj-class="T14-700 cWhite bgOrange" text-transform="uppercase">J'en profite</mj-button>
-                </mj-column>
-                <mj-column width="33.333333%">
-                        <mj-image width="200px" src="./images/blancheDulion.jpg" />
-                        <mj-text align="center" mj-class="T24-700">Blanche</mj-text>
-                        <mj-text align="center" mj-class="T16-300">Bière Blanche 100%</mj-text>
-                        <mj-button padding="0" border="2px" border-radius="2px" mj-class="T14-700 cWhite bgOrange" text-transform="uppercase">J'en profite</mj-button>
-                </mj-column>
-                <mj-group width="66.33%">
-                    <mj-column width="50%">
-                        <mj-image width="200px" src="./images/igorMill.jpg" />
-                        <mj-text align="center" mj-class="T24-700">Igor Mill</mj-text>
-                        <mj-text align="center" mj-class="T16-300">Bière Imperial brut IPA</mj-text>
-                        <mj-button padding ="0" border-radius="5px" mj-class="T14-700 cWhite bgOrange" text-transform="uppercase">J'en profite</mj-button>
-                    </mj-column>
-                    <mj-column width="50%">
-                        <mj-image width="200px" src="./images/jackMill.jpg" />
-                        <mj-text align="center" mj-class="T24-700">Jack Mill</mj-text>
-                        <mj-text align="center" mj-class="T16-300">Bière Black IPA</mj-text>
-                        <mj-button padding="0" border-radius="5px" mj-class="T14-700 cWhite bgOrange" text-transform="uppercase">J'en profite</mj-button>
-                    </mj-column>
-                </mj-group>
-            </mj-section>
-        </wrapper>
+        </mj-wrapper>
         {# Footer #}
     </mj-body>
 </mjml>

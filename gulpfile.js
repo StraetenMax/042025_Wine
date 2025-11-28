@@ -30,13 +30,21 @@ gulp.task('serve', function(){
 //Tâche pour rendre le template Nunjucks avec les données JSON
 gulp.task('nunjucks', function() {
     return gulp.src('src/njk/layout.njk')
-        /*.pipe(data(function(){
-            return{
-                beers: JSON.parse(fs.readFileSync('src/json/articles.json', 'utf8')),
-                logos: JSON.parse(fs.readFileSync('src/json/logos.json', 'utf8')),
-                breves: JSON.parse(fs.readFileSync('src/json/breves.json', 'utf8')),
+        .pipe(data(function(){
+            const readJSON = (filePath) => {
+                try{
+                    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+                } catch (err){
+                    console.warn(`Fichier manquant: ${filePath}`);
+                    return [];
+                }
             };
-        }))*/
+            return{
+                beers: readJSON('src/json/articles.json'),
+                logos: readJSON('src/json/logos.json'),
+                breves: readJSON('src/json/breves.json'),
+            };
+        }))
         .pipe(nunjucksRender({
             path: ['src/njk']
         }))
@@ -69,6 +77,9 @@ gulp.task('file-sizes', function(done){
         if(err){
             return console.log('Unable to scan directory: ' + err);
         }
+        let pending = files.length;
+        if(pending === 0) done();
+
         files.forEach(function(file){
             const filePath = path.join(directoryPath, file);
             fs.stat(filePath, function(err, stats){
@@ -79,16 +90,16 @@ gulp.task('file-sizes', function(done){
                     const fileSizeInkB = stats.size / 1024; 
                     console.log(`${file}: ${fileSizeInkB.toFixed(2)} ko`);
                 }
+                if (--pending === 0) done();
             });
         });
     });
-    done();
 });
 
 //Tâche pour surveiller les fichiers
 gulp.task('watch', function(){
-    gulp.watch('src/mjml/**/*.njk', gulp.series('nunjucks', 'mjml'));
-    gulp.watch('dist/*.mjml', gulp.series('mjml'));
+    gulp.watch('src/njk/**/*.njk', gulp.series('nunjucks', 'mjml'));
+    gulp.watch('src/json/**/*.json', gulp.series('nunjucks', 'mjml'));
 });
 
 //Tâche par défaut

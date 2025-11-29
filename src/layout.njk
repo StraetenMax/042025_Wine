@@ -21,11 +21,7 @@
     </mj-head>
     <mj-body background-color="#140f09">
         {# header #}
-        <mj-section>
-            <mj-column>
-                <mj-image src="./images/0529651e-cc52-4fdd-b512-3eddace4000e.jpg">
-            </mj-column>
-        </mj-section>
+        {% include "partials/header.njk" %}
         {# body_1 #}
         <mj-section padding="0">
             <mj-column>
@@ -49,22 +45,7 @@
                     <mj-text align="center" mj-class="T24-700 cT">Les promotions de la semaine</mj-text>
                 </mj-column>
             </mj-section> 
-            <mj-section>
-            {% for beer in beers %}
-                <mj-group width="50%">  
-                    <mj-column width="40%" vertical-align="middle">
-                        <mj-image padding="0" width="200px" src="{{ beer.image }}" />
-                    </mj-column>
-                    <mj-column width="60%" vertical-align="middle">
-                        <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">{{ beer.name }}</mj-text>
-                        <mj-text padding="0" align="left" mj-class="T16-300">{{ beer.description }}</mj-text>
-                        <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-300"> {{ "Agriculture biologique" if beer.organic else "Agriculture conventionnelle"}}</mj-text>
-                        <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. {{ beer.alcohol_content }} - {{ beer.volume }}</mj-text>
-                        <mj-button padding ="0" border-radius="0px" width="100%" mj-class="T14-700 cWhite bgOrange" >J'en profite</mj-button>
-                    </mj-column>
-                </mj-group>
-            {% endfor %}
-            </mj-section>
+            {% include "partials/products.njk" %}
         </mj-wrapper>
         {# Footer #}
     </mj-body>

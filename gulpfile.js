@@ -29,7 +29,7 @@ gulp.task('serve', function(){
 
 //Tâche pour rendre le template Nunjucks avec les données JSON
 gulp.task('nunjucks', function() {
-    return gulp.src('src/njk/layout.njk')
+    return gulp.src('src/**/*.njk')
         .pipe(data(function(){
             const readJSON = (filePath) => {
                 try{
@@ -44,7 +44,7 @@ gulp.task('nunjucks', function() {
             };
         }))
         .pipe(nunjucksRender({
-            path: ['src/njk']
+            path: ['src/']
         }))
         .pipe(rename({ extname: '.mjml' }))
         .pipe(gulp.dest('src/mjml'));
@@ -61,6 +61,7 @@ gulp.task('mjml', function(){
                 cb(null, file);
             } catch (err) {
                 handleError.call(this, err);
+                cb();
             }
         }))
         .pipe(rename({ extname: '.html' }))
@@ -96,7 +97,7 @@ gulp.task('file-sizes', function(done){
 
 //Tâche pour surveiller les fichiers
 gulp.task('watch', function(){
-    gulp.watch('src/njk/**/*.njk', gulp.series('nunjucks', 'mjml'));
+    gulp.watch('src/**/*.njk', gulp.series('nunjucks', 'mjml'));
     gulp.watch('src/json/**/*.json', gulp.series('nunjucks', 'mjml'));
 });
 

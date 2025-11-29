@@ -12,7 +12,7 @@
         {
             "name": "Blanche Dulion",
             "description": "Bière artisanale blanche aux agrumes",
-            "organic": false,
+            "organic": true,
             "alcohol_content": "5% vol.",
             "volume": "33cl",
             "image": "./images/blancheDulion.jpg"
@@ -24,6 +24,15 @@
             "alcohol_content": "7% vol.",
             "volume": "33cl",
             "image": "./images/jackMill.jpg"
+        },
+        {
+            "name": "Ambrée Dulion",
+            "description": "Bière artisanale ambrée torrefaction fraîche",
+            "organic": true,
+            "alcohol_content": "5.5% vol.",
+            "volume": "33cl",
+            "image": "./images/ambreeDulion.jpg"
         }
+
     ]
 }

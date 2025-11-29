@@ -90,6 +90,19 @@
                     </mj-column>
                 </mj-group>
             
+                <mj-group width="50%">  
+                    <mj-column width="40%" vertical-align="middle">
+                        <mj-image padding="0" width="200px" src="./images/ambreeDulion.jpg" />
+                    </mj-column>
+                    <mj-column width="60%" vertical-align="middle">
+                        <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Ambrée Dulion</mj-text>
+                        <mj-text padding="0" align="left" mj-class="T16-300">Bière artisanale ambrée torrefaction fraîche</mj-text>
+                        <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-300"> Agriculture biologique</mj-text>
+                        <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 5.5% vol. - 33cl</mj-text>
+                        <mj-button padding ="0" border-radius="0px" width="100%" mj-class="T14-700 cWhite bgOrange" >J'en profite</mj-button>
+                    </mj-column>
+                </mj-group>
+            
             </mj-section>
         </mj-wrapper>
         

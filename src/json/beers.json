@@ -20,7 +20,7 @@
         {
             "name": "Jack Mill",
             "description": "Bière artisanale Black IPA",
-            "organic": true,
+            "organic": false,
             "alcohol_content": "7% vol.",
             "volume": "33cl",
             "image": "./images/jackMill.jpg"

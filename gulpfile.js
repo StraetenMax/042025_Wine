@@ -41,6 +41,7 @@ gulp.task('nunjucks', function() {
             };
             return{
                 beers: readJSON('src/json/beers.json').beers,
+                cta: readJSON('src/json/cta.json').cta
             };
         }))
         .pipe(nunjucksRender({

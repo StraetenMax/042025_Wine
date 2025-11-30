@@ -1,0 +1,15 @@
+{
+    "cta":
+    {
+        "label": "Télécharger",
+        "url": "https://exemple.com/guide.pdf",
+        "bgColor": "#28a745",
+        "color": "#ffffff",
+        "fontSize": "18px",
+        "padding": "14px 28px",
+        "radius": "6px",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+    }
+}
+

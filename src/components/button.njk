@@ -1,0 +1,17 @@
+{% macro button(props) %}
+<mj-button
+    href="{{ props.url}}"
+    background-color="{{ props.bgColor | default('#ff5a00') }}"
+    color="{{ props.textColor | default('#ffffff') }}"
+    font-size="{{ props.fontSize | default('14px') }}"
+    font-weight="{{ props.fontWeight | default('700') }}"
+    inner-padding="{{ props.innerPadding | default('10px 25px') }}"
+    width="{{ props.width | default('auto') }}"
+    padding="{{ props.padding | default('0px') }}"
+    border-radius="{{ props.borderRadius | default('0px') }}"
+    rel="{{ props.rel | default('noopener') }}"
+    target="{{ props.target | default('_blank') }}"
+>
+    {{ props.label | default("Clicquez ici") }}
+</mj-button>
+{% endmacro %}

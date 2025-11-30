@@ -2,6 +2,7 @@
     "beers":
     [
         {
+            "direction": "ltr",
             "name": "Igor Mill",
             "description": "Bière artisanale Imperial brut IPA",
             "organic": true,
@@ -11,6 +12,7 @@
             "url": "https://exemple.com/igorMill.pdf"
         },
         {
+            "direction": "rtl",
             "name": "Blanche Dulion",
             "description": "Bière artisanale blanche aux agrumes",
             "organic": true,
@@ -20,6 +22,7 @@
             "url": "https://exemple.com/blancheDulion.pdf"
         },
         {
+            "direction": "ltr",
             "name": "Jack Mill",
             "description": "Bière artisanale Black IPA",
             "organic": false,
@@ -29,6 +32,7 @@
             "url": "https://exemple.com/jackMill.pdf"
         },
         {
+            "direction": "rtl",
             "name": "Ambrée Dulion",
             "description": "Bière artisanale ambrée torrefaction fraîche",
             "organic": true,

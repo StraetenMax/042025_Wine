@@ -1,15 +1,17 @@
 {
     "cta":
     {
-        "label": "Télécharger",
+        "label": "J'en profite",
         "url": "https://exemple.com/guide.pdf",
         "bgColor": "#28a745",
-        "color": "#ffffff",
-        "fontSize": "18px",
-        "padding": "14px 28px",
-        "radius": "6px",
+        "textColor": "#ffffff",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "innerPadding": "10px 15px",
+        "width": "100%",
+        "padding": "0px",
+        "borderRadius": "0px",
         "target": "_blank",
-        "rel": "noopener noreferrer"
+        "rel": "noopener"
     }
 }
-

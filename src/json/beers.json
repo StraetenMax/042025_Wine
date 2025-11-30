@@ -7,7 +7,8 @@
             "organic": true,
             "alcohol_content": "8% vol.",
             "volume": "33cl",
-            "image": "./images/igorMill.jpg"
+            "image": "./images/igorMill.jpg",
+            "url": "https://exemple.com/igorMill.pdf"
         },
         {
             "name": "Blanche Dulion",
@@ -15,7 +16,8 @@
             "organic": true,
             "alcohol_content": "5% vol.",
             "volume": "33cl",
-            "image": "./images/blancheDulion.jpg"
+            "image": "./images/blancheDulion.jpg",
+            "url": "https://exemple.com/blancheDulion.pdf"
         },
         {
             "name": "Jack Mill",
@@ -23,7 +25,8 @@
             "organic": false,
             "alcohol_content": "7% vol.",
             "volume": "33cl",
-            "image": "./images/jackMill.jpg"
+            "image": "./images/jackMill.jpg",
+            "url": "https://exemple.com/jackMill.pdf"
         },
         {
             "name": "Ambrée Dulion",
@@ -31,7 +34,8 @@
             "organic": true,
             "alcohol_content": "5.5% vol.",
             "volume": "33cl",
-            "image": "./images/ambreeDulion.jpg"
+            "image": "./images/ambreeDulion.jpg",
+            "url": "https://exemple.com/ambreeDulion.pdf"
         }
 
     ]

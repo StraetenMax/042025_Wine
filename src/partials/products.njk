@@ -1,5 +1,5 @@
-    {% import "components/button.njk" as btn %}
- <mj-section>
+{% import "components/button.njk" as btn %}
+<mj-section>
     {# Boucle for pour afficher les bières #}
     {% for beer in beers %}
         <mj-group width="50%">  
@@ -10,10 +10,10 @@
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">{{ beer.name }}</mj-text>
                 <mj-text padding="0" align="left" mj-class="T16-300">{{ beer.description }}</mj-text>
                 {# Condition d'affichage du type d'agriculture #}   
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-300"> {{ "Agriculture biologique" if beer.organic else "Agriculture conventionnelle"}}</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-300">{{ "Agriculture biologique" if beer.organic else "Agriculture conventionnelle"}}</mj-text>
                 <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. {{ beer.alcohol_content }} - {{ beer.volume }}</mj-text>
-                {# Components :bouton #}
-                {{ btn.button(cta) }}
+                {# Components : bouton #}
+                {{ btn.button(cta, beer.url) }}
             </mj-column>
         </mj-group>
     {% endfor %}

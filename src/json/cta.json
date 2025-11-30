@@ -2,8 +2,7 @@
     "cta":
     {
         "label": "J'en profite",
-        "url": "https://exemple.com/guide.pdf",
-        "bgColor": "#28a745",
+        "bgColor": "",
         "textColor": "#ffffff",
         "fontSize": "16px",
         "fontWeight": "700",

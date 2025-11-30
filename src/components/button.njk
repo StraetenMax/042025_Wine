@@ -1,16 +1,17 @@
-{% macro button(props) %}
+{% macro button(props, url) %}
 <mj-button
-    background-color="{{ props.bgColor | default('#ff5a00') }}"
-    color="{{ props.textColor | default('#ffffff') }}"
-    font-size="{{ props.fontSize | default('14px') }}"
-    font-weight="{{ props.fontWeight | default('700') }}"
-    inner-padding="{{ props.innerPadding | default('10px 25px') }}"
-    width="{{ props.width | default('auto') }}"
-    padding="{{ props.padding | default('0px') }}"
-    border-radius="{{ props.borderRadius | default('0px') }}"
-    rel="{{ props.rel | default('noopener') }}"
-    target="{{ props.target | default('_blank') }}"
+    background-color="{{ props.bgColor or '#ff5a00' }}"
+    color="{{ props.textColor or '#ffffff' }}"
+    font-size="{{ props.fontSize or '14px' }}"
+    font-weight="{{ props.fontWeight or '700' }}"
+    inner-padding="{{ props.innerPadding or '10px 25px' }}"
+    width="{{ props.width or 'auto' }}"
+    padding="{{ props.padding or '0px' }}"
+    border-radius="{{ props.borderRadius or '0px' }}"
+    href="{{ url or '#' }}"
+    rel="{{ props.rel or 'noopener' }}"
+    target="{{ props.target or '_blank' }}"
 >
-    {{ props.label | default("Clicquez ici") }}
+    {{ props.label or "Clicquez ici" }}
 </mj-button>
 {% endmacro %}

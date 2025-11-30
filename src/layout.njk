@@ -7,7 +7,7 @@
             {# typographies Email #}
             <mj-class name="T24-700" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="700" line-height="28px"/>
             <mj-class name="T20-400" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="400" line-height="24px"/>
-            <mj-class name="T16-700" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" line-height="20px"/>
+            <mj-class name="T16-400" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" line-height="24px"/>
             <mj-class name="T16-300" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" line-height="20px"/>
             <mj-class name="T14-700" font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="700" line-height="20px"/>
             {# couleur Email #}
@@ -23,21 +23,21 @@
         {# header #}
         {% include "partials/header.njk" %}
         {# body_1 #}
-        <mj-section background-color="#ffffff">
-            <mj-column>
-                <mj-text align="center" mj-class="T20-400 cOrange">meilleure qualité</mj-text>
-                <mj-text mj-class="T16-400 cBlack">Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
+        <mj-section padding="20px" background-color="#ffffff">
+            <mj-column padding="10px">
+                <mj-text padding="0" mj-class="T24-700 cOrange">meilleure qualité</mj-text>
+                <mj-text padding="0" mj-class="T16-400 cBlack">Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
             </mj-column>
-            <mj-column>
-                <mj-text align="center" mj-class="T20-400 cOrange">haute performance</mj-text>
-                <mj-text mj-class="T16-400 cBlack">Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
+            <mj-column padding="10px">
+                <mj-text padding="0" mj-class="T24-700 cOrange">haute performance</mj-text>
+                <mj-text padding="0" mj-class="T16-400 cBlack">Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
             </mj-column>
         </mj-section>
         {# Products #}
         <mj-wrapper padding="30px" background-color="#ffffff">
-            <mj-section>
+            <mj-section padding="0px">
                 <mj-column>
-                    <mj-text align="center" mj-class="T24-700 cT">Les promotions de la semaine</mj-text>
+                    <mj-text padding="0" align="center" font-size="36px" font-weight="700" mj-class="cBlack">Les promotions de la semaine</mj-text>
                 </mj-column>
             </mj-section> 
             {% include "partials/products.njk" %}

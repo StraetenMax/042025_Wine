@@ -4,7 +4,7 @@
     
         <mj-group width="50%">  
             <mj-column width="40%" vertical-align="middle">
-                <mj-image padding="0" width="200px" src="./images/igorMill.jpg" />
+                <mj-image padding="0" padding-bottom="40px" width="200px" src="./images/igorMill.jpg" />
             </mj-column>
             <mj-column width="60%" vertical-align="middle">
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Igor Mill</mj-text>
@@ -15,7 +15,7 @@
                 
                 
 <mj-button
-    background-color="#28a745"
+    background-color="#ff5a00"
     color="#ffffff"
     font-size="16px"
     font-weight="700"
@@ -23,6 +23,7 @@
     width="100%"
     padding="0px"
     border-radius="0px"
+    href="https://exemple.com/igorMill.pdf"
     rel="noopener"
     target="_blank"
 >
@@ -34,7 +35,7 @@
     
         <mj-group width="50%">  
             <mj-column width="40%" vertical-align="middle">
-                <mj-image padding="0" width="200px" src="./images/blancheDulion.jpg" />
+                <mj-image padding="0" padding-bottom="40px" width="200px" src="./images/blancheDulion.jpg" />
             </mj-column>
             <mj-column width="60%" vertical-align="middle">
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Blanche Dulion</mj-text>
@@ -45,7 +46,7 @@
                 
                 
 <mj-button
-    background-color="#28a745"
+    background-color="#ff5a00"
     color="#ffffff"
     font-size="16px"
     font-weight="700"
@@ -53,6 +54,7 @@
     width="100%"
     padding="0px"
     border-radius="0px"
+    href="https://exemple.com/blancheDulion.pdf"
     rel="noopener"
     target="_blank"
 >
@@ -64,7 +66,7 @@
     
         <mj-group width="50%">  
             <mj-column width="40%" vertical-align="middle">
-                <mj-image padding="0" width="200px" src="./images/jackMill.jpg" />
+                <mj-image padding="0" padding-bottom="40px" width="200px" src="./images/jackMill.jpg" />
             </mj-column>
             <mj-column width="60%" vertical-align="middle">
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Jack Mill</mj-text>
@@ -75,7 +77,7 @@
                 
                 
 <mj-button
-    background-color="#28a745"
+    background-color="#ff5a00"
     color="#ffffff"
     font-size="16px"
     font-weight="700"
@@ -83,6 +85,7 @@
     width="100%"
     padding="0px"
     border-radius="0px"
+    href="https://exemple.com/jackMill.pdf"
     rel="noopener"
     target="_blank"
 >
@@ -94,7 +97,7 @@
     
         <mj-group width="50%">  
             <mj-column width="40%" vertical-align="middle">
-                <mj-image padding="0" width="200px" src="./images/ambreeDulion.jpg" />
+                <mj-image padding="0" padding-bottom="40px" width="200px" src="./images/ambreeDulion.jpg" />
             </mj-column>
             <mj-column width="60%" vertical-align="middle">
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Ambrée Dulion</mj-text>
@@ -105,7 +108,7 @@
                 
                 
 <mj-button
-    background-color="#28a745"
+    background-color="#ff5a00"
     color="#ffffff"
     font-size="16px"
     font-weight="700"
@@ -113,6 +116,7 @@
     width="100%"
     padding="0px"
     border-radius="0px"
+    href="https://exemple.com/ambreeDulion.pdf"
     rel="noopener"
     target="_blank"
 >

@@ -6,11 +6,13 @@
         <mj-attributes>
             
             <mj-all font-family="Arial, Helvetica, sans-serif"/>
-            <mj-class name="T24-700" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="700" line-height="28px"/>
-            <mj-class name="T20-400" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="400" line-height="24px"/>
-            <mj-class name="T16-400" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" line-height="24px"/>
-            <mj-class name="T16-300" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" line-height="20px"/>
+            <mj-class name="T24-700" font-family="Arial, Helvetica, sans-serif" font-size="24px" font-weight="700" line-height="30px"/>
+            <mj-class name="T20-700" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="700" line-height="26px"/>
+            <mj-class name="T20-400" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="400" line-height="26px"/>
+            <mj-class name="T16-700" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" line-height="22px"/>
+            <mj-class name="T16-400" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" line-height="22px"/>
             <mj-class name="T14-700" font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="700" line-height="20px"/>
+            <mj-class name="T12-400" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" line-height="18px"/>
             
             <mj-class name="cOrange" color="#ff5a00"/>
             <mj-class name="bgOrange" background-color="#ff5a00"/>
@@ -54,10 +56,10 @@
                 <mj-image padding="0" padding-bottom="40px" width="200px" src="./images/igorMill.jpg" />
             </mj-column>
             <mj-column padding="5px" width="60%" vertical-align="middle">
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Igor Mill</mj-text>
-                <mj-text padding="0" align="left" mj-class="T16-300">Bière artisanale Imperial brut IPA</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Igor Mill</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400">Bière artisanale Imperial brut IPA</mj-text>
                    
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-300">Agriculture biologique</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-400">Agriculture biologique</mj-text>
                 <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 8% vol. - 33cl</mj-text>
                 
                 
@@ -85,10 +87,10 @@
                 <mj-image padding="0" padding-bottom="40px" width="200px" src="./images/blancheDulion.jpg" />
             </mj-column>
             <mj-column padding="5px" width="60%" vertical-align="middle">
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Blanche Dulion</mj-text>
-                <mj-text padding="0" align="left" mj-class="T16-300">Bière artisanale blanche aux agrumes</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Blanche Dulion</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400">Bière artisanale blanche aux agrumes</mj-text>
                    
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-300">Agriculture biologique</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-400">Agriculture biologique</mj-text>
                 <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 5% vol. - 33cl</mj-text>
                 
                 
@@ -116,10 +118,10 @@
                 <mj-image padding="0" padding-bottom="40px" width="200px" src="./images/jackMill.jpg" />
             </mj-column>
             <mj-column padding="5px" width="60%" vertical-align="middle">
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Jack Mill</mj-text>
-                <mj-text padding="0" align="left" mj-class="T16-300">Bière artisanale Black IPA</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Jack Mill</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400">Bière artisanale Black IPA</mj-text>
                    
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-300">Agriculture conventionnelle</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-400">Agriculture conventionnelle</mj-text>
                 <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 7% vol. - 33cl</mj-text>
                 
                 
@@ -147,10 +149,10 @@
                 <mj-image padding="0" padding-bottom="40px" width="200px" src="./images/ambreeDulion.jpg" />
             </mj-column>
             <mj-column padding="5px" width="60%" vertical-align="middle">
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Ambrée Dulion</mj-text>
-                <mj-text padding="0" align="left" mj-class="T16-300">Bière artisanale ambrée torrefaction fraîche</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Ambrée Dulion</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400">Bière artisanale ambrée torrefaction fraîche</mj-text>
                    
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-300">Agriculture biologique</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-400">Agriculture biologique</mj-text>
                 <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 5.5% vol. - 33cl</mj-text>
                 
                 
@@ -176,5 +178,10 @@
 </mj-section>
         </mj-wrapper>
         
+        <mj-section padding="20px" background-color="#140f09">
+    <mj-column>
+        <mj-text padding="0" align="center" mj-class="T12-400 cWhite">© 2025 Vente de bières. Tous droits réservés.</mj-text>
+    </mj-column>
+</mj-section>
     </mj-body>
 </mjml>

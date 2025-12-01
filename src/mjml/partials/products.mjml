@@ -7,10 +7,10 @@
                 <mj-image padding="0" padding-bottom="40px" width="200px" src="./images/igorMill.jpg" />
             </mj-column>
             <mj-column padding="5px" width="60%" vertical-align="middle">
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Igor Mill</mj-text>
-                <mj-text padding="0" align="left" mj-class="T16-300">Bière artisanale Imperial brut IPA</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Igor Mill</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400">Bière artisanale Imperial brut IPA</mj-text>
                    
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-300">Agriculture biologique</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-400">Agriculture biologique</mj-text>
                 <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 8% vol. - 33cl</mj-text>
                 
                 
@@ -38,10 +38,10 @@
                 <mj-image padding="0" padding-bottom="40px" width="200px" src="./images/blancheDulion.jpg" />
             </mj-column>
             <mj-column padding="5px" width="60%" vertical-align="middle">
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Blanche Dulion</mj-text>
-                <mj-text padding="0" align="left" mj-class="T16-300">Bière artisanale blanche aux agrumes</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Blanche Dulion</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400">Bière artisanale blanche aux agrumes</mj-text>
                    
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-300">Agriculture biologique</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-400">Agriculture biologique</mj-text>
                 <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 5% vol. - 33cl</mj-text>
                 
                 
@@ -69,10 +69,10 @@
                 <mj-image padding="0" padding-bottom="40px" width="200px" src="./images/jackMill.jpg" />
             </mj-column>
             <mj-column padding="5px" width="60%" vertical-align="middle">
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Jack Mill</mj-text>
-                <mj-text padding="0" align="left" mj-class="T16-300">Bière artisanale Black IPA</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Jack Mill</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400">Bière artisanale Black IPA</mj-text>
                    
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-300">Agriculture conventionnelle</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-400">Agriculture conventionnelle</mj-text>
                 <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 7% vol. - 33cl</mj-text>
                 
                 
@@ -100,10 +100,10 @@
                 <mj-image padding="0" padding-bottom="40px" width="200px" src="./images/ambreeDulion.jpg" />
             </mj-column>
             <mj-column padding="5px" width="60%" vertical-align="middle">
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T24-700">Ambrée Dulion</mj-text>
-                <mj-text padding="0" align="left" mj-class="T16-300">Bière artisanale ambrée torrefaction fraîche</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Ambrée Dulion</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400">Bière artisanale ambrée torrefaction fraîche</mj-text>
                    
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-300">Agriculture biologique</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-400">Agriculture biologique</mj-text>
                 <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 5.5% vol. - 33cl</mj-text>
                 
                 

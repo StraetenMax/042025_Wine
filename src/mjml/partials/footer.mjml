@@ -1,0 +1,5 @@
+<mj-section padding="20px" background-color="#140f09">
+    <mj-column>
+        <mj-text padding="0" align="center" mj-class="T12-400 cWhite">© 2025 Vente de bières. Tous droits réservés.</mj-text>
+    </mj-column>
+</mj-section>

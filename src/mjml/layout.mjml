@@ -45,6 +45,7 @@
             <mj-section padding="0px">
                 <mj-column>
                     <mj-text padding="0" align="center" font-size="36px" font-weight="700" mj-class="cBlack">Bières de&nbsp;la&nbsp;semaine</mj-text>
+                    <mj-text padding="0" align="center" mj-class="T14-700 cBlack" text-transform="uppercase" letter-spacing="2px">sélection de la brasserie</mj-text>
                 </mj-column>
             </mj-section> 
             
@@ -57,10 +58,11 @@
             </mj-column>
             <mj-column padding="5px" width="60%" vertical-align="middle">
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Igor Mill</mj-text>
-                <mj-text padding="0" align="left" mj-class="T16-400">Bière artisanale Imperial brut IPA</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Bière artisanale Imperial brut IPA</mj-text>
                    
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-400">Agriculture biologique</mj-text>
-                <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 8% vol. - 33cl</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Agriculture biologique</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-700 cOrange">5.00 €</mj-text>
+                <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700 cBlack">Alc. 8% vol. - 33cl</mj-text>
                 
                 
 <mj-button
@@ -88,10 +90,11 @@
             </mj-column>
             <mj-column padding="5px" width="60%" vertical-align="middle">
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Blanche Dulion</mj-text>
-                <mj-text padding="0" align="left" mj-class="T16-400">Bière artisanale blanche aux agrumes</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Bière artisanale blanche aux agrumes</mj-text>
                    
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-400">Agriculture biologique</mj-text>
-                <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 5% vol. - 33cl</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Agriculture biologique</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-700 cOrange">4.20 €</mj-text>
+                <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700 cBlack">Alc. 5% vol. - 33cl</mj-text>
                 
                 
 <mj-button
@@ -119,10 +122,11 @@
             </mj-column>
             <mj-column padding="5px" width="60%" vertical-align="middle">
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Jack Mill</mj-text>
-                <mj-text padding="0" align="left" mj-class="T16-400">Bière artisanale Black IPA</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Bière artisanale Black IPA</mj-text>
                    
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-400">Agriculture conventionnelle</mj-text>
-                <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 7% vol. - 33cl</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Agriculture conventionnelle</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-700 cOrange">3.50 €</mj-text>
+                <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700 cBlack">Alc. 7% vol. - 33cl</mj-text>
                 
                 
 <mj-button
@@ -150,10 +154,11 @@
             </mj-column>
             <mj-column padding="5px" width="60%" vertical-align="middle">
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Ambrée Dulion</mj-text>
-                <mj-text padding="0" align="left" mj-class="T16-400">Bière artisanale ambrée torrefaction fraîche</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Bière artisanale ambrée torrefaction fraîche</mj-text>
                    
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-400">Agriculture biologique</mj-text>
-                <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. 5.5% vol. - 33cl</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Agriculture biologique</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-700 cOrange">4.00 €</mj-text>
+                <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700 cBlack">Alc. 5.5% vol. - 33cl</mj-text>
                 
                 
 <mj-button
@@ -179,7 +184,14 @@
         </mj-wrapper>
         
         <mj-section padding="20px" background-color="#140f09">
-    <mj-column>
+    <mj-column width="100%">
+        <mj-social inner-padding="10px" icon-size="30px" mode="horizontal" align="center" color="#ffffff">
+            <mj-social-element src="https://i.ibb.co/SwnfcyPX/facebook-H21062025.png" href="https://www.facebook.com/"/>
+            <mj-social-element src="https://i.ibb.co/35HB8DPm/instagram-H21062025.png" href="https://www.instagram.com/"/>
+            <mj-social-element src="https://i.ibb.co/RG769FDr/linkedin-H21062025.png" href="https://www.linkedin.com/"/>
+        </mj-social>
+    </mj-column>
+    <mj-column width="100%">
         <mj-text padding="0" align="center" mj-class="T12-400 cWhite">© 2025 Vente de bières. Tous droits réservés.</mj-text>
     </mj-column>
 </mj-section>

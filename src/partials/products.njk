@@ -8,10 +8,11 @@
             </mj-column>
             <mj-column padding="5px" width="60%" vertical-align="middle">
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">{{ beer.name }}</mj-text>
-                <mj-text padding="0" align="left" mj-class="T16-400">{{ beer.description }}</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400 cBlack">{{ beer.description }}</mj-text>
                 {# Condition d'affichage du type d'agriculture #}   
-                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-400">{{ "Agriculture biologique" if beer.organic else "Agriculture conventionnelle"}}</mj-text>
-                <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700">Alc. {{ beer.alcohol_content }} - {{ beer.volume }}</mj-text>
+                <mj-text padding="0" align="left" mj-class="T16-400 cBlack">{{ "Agriculture biologique" if beer.organic else "Agriculture conventionnelle"}}</mj-text>
+                <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-700 cOrange">{{ beer.price }}</mj-text>
+                <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700 cBlack">Alc. {{ beer.alcohol_content }} - {{ beer.volume }}</mj-text>
                 {# Components : bouton #}
                 {{ btn.button(cta, beer.url) }}
             </mj-column>

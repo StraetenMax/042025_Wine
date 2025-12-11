@@ -38,11 +38,11 @@
         
         <mj-section padding="20px" background-color="#ffffff">
             <mj-column padding="10px">
-                <mj-text padding="0" mj-class="T24-700 cOrange">Meilleure qualité</mj-text>
-                <mj-text padding="0" mj-class="T16-400 cBlack">Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
+                <mj-text padding="0" mj-class="T24-700 cOrange">Édito</mj-text>
+                <mj-text padding="0" mj-class="T16-400 cBlack">Bienvenue dans l’univers de notre brasserie artisanale ! Ici, chaque bière raconte une histoire de passion, de terroir et de créativité. Entre recettes audacieuses et savoir-faire traditionnel, nous brassons pour éveiller vos papilles et partager l’art du houblon. Installez-vous, servez-vous, et laissez-vous surprendre…</mj-text>
             </mj-column>
             <mj-column padding="10px">
-                <mj-text padding="0" mj-class="T24-700 cOrange">Haute performance</mj-text>
+                <mj-text padding="0" mj-class="T24-700 cOrange">Actualités</mj-text>
                 <mj-text padding="0" mj-class="T16-400 cBlack">Totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</mj-text>
             </mj-column>
         </mj-section>

@@ -8,7 +8,7 @@
     </mj-column>
 </mj-section>
 <mj-section padding="10px 20px">
-    <mj-column>
+    <mj-column width="80%">
         <mj-text padding="0" align="center" mj-class="T12-400 cWhite">Vous recevez ce message parce que vous vous êtes abonné(e) aux communications promotionnelles de la brasserie.</mj-text>
         <mj-text padding="0" align="center" mj-class="T12-400 cWhite">Ce message vous a été envoyé par la brasserie, dont le siège social est sis Boulevard de fourmis, 59100 Roubaix. Pour vous désabonner, exercer vos droits ou en savoir plus sur le traitement de vos données, vous pouvez utiliser les liens ci-dessous.</mj-text>
     </mj-column>

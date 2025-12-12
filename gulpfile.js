@@ -43,7 +43,7 @@ gulp.task('nunjucks', function() {
             return{
                 beers: readJSON('src/json/beers.json').beers,
                 cta: readJSON('src/json/cta.json').cta,
-                newsList: allNews.slice(0, 3) // Limite à 3 actualités
+                news: allNews.slice(0, 3) // Limite à 3 actualités
             };
         }))
         .pipe(nunjucksRender({

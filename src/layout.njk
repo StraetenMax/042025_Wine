@@ -34,26 +34,16 @@
                     <img padding="0" align="left" width="87px" src="images/logoBrasserie.png" alt="logo de brasserie belge"/>
                     Bienvenue dans l’univers de notre brasserie artisanale ! Ici, chaque bière raconte une histoire de passion, de terroir et de créativité. Entre recettes audacieuses et savoir-faire traditionnel, nous brassons pour éveiller vos papilles et partager l’art du houblon. Installez-vous, servez-vous, et laissez-vous surprendre…</mj-text>
             </mj-column>
-            {% for news in newsList | slice(0, 3) %}
             <mj-column padding="10px">
                 <mj-text padding="0" mj-class="T24-700 cOrange">Actualités</mj-text>
-                <mj-text padding="0" mj-class="T12-700" color="#616161"><span style="color:#ff5a00;">&#9679;</span>{{ news.date }}</mj-text>
-                <mj-text padding="0" mj-class="T16-400 cBlack"><span style="font-weight:700;">{{ news.title }}</span></mj-text>
-                <mj-text padding="0" align="right" mj-class="T12-400">
-                    <a href="{{ news.url }}" style="color: #ff5a00; text-decoration: none;">Lire plus...</a>
-                </mj-text>
-                <mj-text padding="0" mj-class="T12-700" color="#616161"><span style="color:#ff5a00;"> &#9679;</span> 8 Décembre 2025</mj-text>
-                <mj-text padding="0" mj-class="T16-400 cBlack"><span style="font-weight:700;">La Pèlerine de Foy :</span> une bière pour célébrer les 400 ans de pèlerinage pour Notre-Dame de Foy</mj-text>
-                <mj-text padding="0" align="right" mj-class="T12-400">
-                    <a href="#" style="color: #ff5a00; text-decoration: none;">Lire plus...</a>
-                </mj-text>
-                <mj-text padding="0" mj-class="T12-700" color="#616161"><span style="color:#ff5a00;"> &#9679;</span> 12 Décembre 2025</mj-text>
-                <mj-text padding="0" mj-class="T16-400 cBlack"><span style="font-weight:700;">PINTJES :</span> le fanzine lance un numéro spécial célébrant les meilleurs cafés de la Place du Jeu de Balle</mj-text>
-                <mj-text padding="0" align="right" mj-class="T12-400">
-                    <a href="#" style="color: #ff5a00; text-decoration: none;">Lire plus...</a>
-                </mj-text>
+                {% for new in news %}
+                    <mj-text padding="0" mj-class="T12-700" color="#616161"><span style="color:#ff5a00;">&#9679;</span>{{ new.date }}</mj-text>
+                    <mj-text padding="0" mj-class="T16-400 cBlack"><span style="font-weight:700;">{{ new.title }}</span></mj-text>
+                    <mj-text padding="0" align="right" mj-class="T12-400">
+                        <a href="{{ new.url }}" style="color: #ff5a00; text-decoration: none;">Lire plus...</a>
+                    </mj-text>
+                {% endfor %}
             </mj-column>
-            {% endfor %}
         </mj-section>
         {# Products #}
         <mj-wrapper padding="25px" background-color="#ffffff">

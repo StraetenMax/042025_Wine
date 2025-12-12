@@ -44,7 +44,10 @@
                     <img padding="0" align="left" width="87px" src="images/logoBrasserie.png" alt="logo de brasserie belge"/>
                     Bienvenue dans l’univers de notre brasserie artisanale ! Ici, chaque bière raconte une histoire de passion, de terroir et de créativité. Entre recettes audacieuses et savoir-faire traditionnel, nous brassons pour éveiller vos papilles et partager l’art du houblon. Installez-vous, servez-vous, et laissez-vous surprendre…</mj-text>
             </mj-column>
-            
+            <mj-column padding="10px">
+                <mj-text padding="0" mj-class="T24-700 cOrange">Actualités</mj-text>
+                
+            </mj-column>
         </mj-section>
         
         <mj-wrapper padding="25px" background-color="#ffffff">

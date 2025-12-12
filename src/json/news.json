@@ -1,0 +1,24 @@
+{
+    "news": [
+        {
+            "date": "5 Décembre 2025",
+            "title": "Brasseries terroir : un guide pour découvrir les brasseries artisanales du Nord",
+            "url": "https:/example.com/news1"
+        },
+        {
+            "date": "8 Décembre 2025",
+            "title": "La Pèlerine de Foy : une bière pour célébrer les 400 ans de pèlerinage pour Notre-Dame de Foy",
+            "url": "https://example.com/news2"
+        },
+        {
+            "date": "12 Décembre 2025",
+            "title": "Nouveauté : Découvrez notre nouvelle bière d'hiver aux épices",
+            "url": "https://example.com/news3"
+        },
+        {
+            "date": "15 Décembre 2025",
+            "title": "Atelier de brassage : Participez à notre prochain atelier en janvier",
+            "url": "https://example.com/news4"
+        }
+    ]
+}

@@ -47,6 +47,24 @@
             <mj-column padding="10px">
                 <mj-text padding="0" mj-class="T24-700 cOrange">Actualités</mj-text>
                 
+                    <mj-text padding="0" mj-class="T12-700" color="#616161"><span style="color:#ff5a00;">&#9679; </span>5 Décembre 2025</mj-text>
+                    <mj-text padding="0" mj-class="T16-400 cBlack">Brasseries terroir : un guide pour découvrir les brasseries artisanales du Nord</mj-text>
+                    <mj-text padding="0" align="right" mj-class="T12-400">
+                        <a href="https:/example.com/news1" style="color: #ff5a00; text-decoration: none;">Lire plus...</a>
+                    </mj-text>
+                
+                    <mj-text padding="0" mj-class="T12-700" color="#616161"><span style="color:#ff5a00;">&#9679; </span>8 Décembre 2025</mj-text>
+                    <mj-text padding="0" mj-class="T16-400 cBlack">La Pèlerine de Foy : une bière pour célébrer les 400 ans de pèlerinage pour Notre-Dame de Foy</mj-text>
+                    <mj-text padding="0" align="right" mj-class="T12-400">
+                        <a href="https://example.com/news2" style="color: #ff5a00; text-decoration: none;">Lire plus...</a>
+                    </mj-text>
+                
+                    <mj-text padding="0" mj-class="T12-700" color="#616161"><span style="color:#ff5a00;">&#9679; </span>12 Décembre 2025</mj-text>
+                    <mj-text padding="0" mj-class="T16-400 cBlack">Nouveauté : Découvrez notre nouvelle bière d&#39;hiver aux épices</mj-text>
+                    <mj-text padding="0" align="right" mj-class="T12-400">
+                        <a href="https://example.com/news3" style="color: #ff5a00; text-decoration: none;">Lire plus...</a>
+                    </mj-text>
+                
             </mj-column>
         </mj-section>
         

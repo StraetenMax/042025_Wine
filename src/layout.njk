@@ -37,8 +37,8 @@
             <mj-column padding="10px">
                 <mj-text padding="0" mj-class="T24-700 cOrange">Actualités</mj-text>
                 {% for new in news %}
-                    <mj-text padding="0" mj-class="T12-700" color="#616161"><span style="color:#ff5a00;">&#9679;</span>{{ new.date }}</mj-text>
-                    <mj-text padding="0" mj-class="T16-400 cBlack"><span style="font-weight:700;">{{ new.title }}</span></mj-text>
+                    <mj-text padding="0" mj-class="T12-700" color="#616161"><span style="color:#ff5a00;">&#9679; </span>{{ new.date }}</mj-text>
+                    <mj-text padding="0" mj-class="T16-400 cBlack">{{ new.title }}</mj-text>
                     <mj-text padding="0" align="right" mj-class="T12-400">
                         <a href="{{ new.url }}" style="color: #ff5a00; text-decoration: none;">Lire plus...</a>
                     </mj-text>

@@ -9,7 +9,7 @@
             <mj-column padding="5px" width="60%" vertical-align="middle">
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Igor Mill</mj-text>
                 <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Bière artisanale Imperial brut IPA</mj-text>
-                   
+                
                 <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Agriculture biologique</mj-text>
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-700 cOrange">5.00 €</mj-text>
                 <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700 cBlack">Alc. 8% vol. - 33cl</mj-text>
@@ -41,7 +41,7 @@
             <mj-column padding="5px" width="60%" vertical-align="middle">
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Blanche Dulion</mj-text>
                 <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Bière artisanale blanche aux agrumes</mj-text>
-                   
+                
                 <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Agriculture biologique</mj-text>
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-700 cOrange">4.20 €</mj-text>
                 <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700 cBlack">Alc. 5% vol. - 33cl</mj-text>
@@ -73,7 +73,7 @@
             <mj-column padding="5px" width="60%" vertical-align="middle">
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Jack Mill</mj-text>
                 <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Bière artisanale Black IPA</mj-text>
-                   
+                
                 <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Agriculture conventionnelle</mj-text>
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-700 cOrange">3.50 €</mj-text>
                 <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700 cBlack">Alc. 7% vol. - 33cl</mj-text>
@@ -105,7 +105,7 @@
             <mj-column padding="5px" width="60%" vertical-align="middle">
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T20-700">Ambrée Dulion</mj-text>
                 <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Bière artisanale ambrée torrefaction fraîche</mj-text>
-                   
+                
                 <mj-text padding="0" align="left" mj-class="T16-400 cBlack">Agriculture biologique</mj-text>
                 <mj-text padding="0" padding-bottom="8px" align="left" mj-class="T16-700 cOrange">4.00 €</mj-text>
                 <mj-text padding="0" padding-bottom="15px" align="left" mj-class="T14-700 cBlack">Alc. 5.5% vol. - 33cl</mj-text>

@@ -1,0 +1,20 @@
+{# components/article.mjml.njk #}
+{% macro article(props, today) %}
+    {% if props.title and props.url %}
+        <mj-section>
+            <mj-column>
+                <mj-text padding="0" mj-class="T12-700" color="#616161">
+                    <span style="color:#ff5a00;">&#9679; </span>{{ props.date or (today | date("DD/MM/YYYY")) }}
+                </mj-text>
+                <mj-text padding="0" mj-class="T16-400 cBlack">
+                    {{ props.title }}
+                </mj-text>
+                <mj-text padding="0" align="right" mj-class="T12-400">
+                    <a href="{{ props.url }}" style="color: {{ props.color or '#ff5a00' }}; text-decoration: none;"> 
+                        {{ props.label or "Lire plus..." }}
+                    </a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    {% endif %}
+{% endmacro %}

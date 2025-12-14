@@ -1,7 +1,17 @@
-<mj-section>
-    <mj-column>
-        <mj-imagesrc="images/recette.jpg" alt="image de la recette" width="300px" padding="0px" padding-bottom="20px"/>
+<mj-section padding="20px 25px" background-color="#CDDDC1"> 
+    <mj-column padding="10px" width="50%">
+        <mj-image src="images/crepes.png" alt="image de la recette" fluid-on-mobile="true" width="480px" padding="0px"/>
     </mj-column>
-    <mj-column>
+    <mj-column padding="10px" width="50%">
+        <mj-text padding="0" mj-class="T16-400 cBlack">
+            <h2 style="margin:0;font-weight:700;">Recette de crêpes à la bière</h2>
+            <p style="margin:0;font-size:14px">&#9203;1h02&nbsp;|&nbsp;&#11088;très facile&nbsp;|&nbsp;&#128176;bon marché</p>
+            <h3 style="margin:0;font-size:16px;font-weight:700;text-transform:uppercase;">Ingrédients :</h3>
+            <p style="margin:0;">500g de farine, sel, 2 cuillères à soupe d'huile, 2 cuillères à soupe de rhum, 25 cl de bière, 6 oeufs et 50 cl de lait.</p>
+            <h3 style="margin:0;font-size:16px;font-weight:700;text-transform:uppercase;">Préparation :</h3>
+            <p style="margin:0;"><span style="font-weight:700;">Étape 1 :</span> Mettez la farine dans un saladier. Faites-y un puits et ajoutez l'huile, le rhum et les oeufs.</p>
+            <p style="margin:0;"><span style="font-weight:700;">Étape 2 :</span> Mélangez, puis ajoutez petit à petit le lait, puis la bière</p>
+            <p style="margin:0;"><span style="font-weight:700;">Étape 3 :</span> Laissez reposer 1 heure avant de faire cuire les crèpes. Les déguster avec du sucre en poudre ou de la cassonade.</p>
+        </mj-text>
     </mj-column>
 </mj-section>

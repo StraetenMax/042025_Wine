@@ -5,7 +5,10 @@
     </mj-column>
 </mj-section>
 <mj-section padding="0">
-    <mj-column>
+    <mj-column width="100%">
         <mj-image padding="0" width="600" src="./images/pompebiere.png" />
     </mj-column>
+    <mj-column width="100%" mj-class="bgBlack" padding="10px 0">
+        <mj-text padding="0" mj-class="T32-700 cWhite" align="center">La Pompe à Bière</mj-text>
+        <mj-text padding="0" mj-class="T12-400 cWhite" align="center" text-transform="uppercase" letter-spacing="2px" >Brasserie Artisanale Belge - Newsletter Décembre 2025</mj-text>
 </mj-section>

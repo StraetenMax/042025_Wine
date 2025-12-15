@@ -22,6 +22,7 @@
             <mj-class name="cWhite" color="#ffffff"/>
             <mj-class name="bgWhite" background-color="#ffffff"/>
         </mj-attributes>
+        <mj-breakpoint width="480px"/>
     </mj-head>
     <mj-body background-color="#140f09">
         
@@ -211,8 +212,8 @@
         </mj-wrapper>
         
         <mj-section padding="20px 25px" background-color="#CDDDC1"> 
-    <mj-column padding="10px" width="50%">
-        <mj-image src="images/crepes.png" alt="image de la recette" fluid-on-mobile="true" width="480px" padding="0px"/>
+    <mj-column padding="10px">
+        <mj-image src="images/crepes.png" alt="image de la recette" fluid-on-mobile="true" width="600px" padding="0px"/>
     </mj-column>
     <mj-column padding="10px" width="50%">
         <mj-text padding="0" mj-class="T16-400 cBlack">

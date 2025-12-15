@@ -1,6 +1,6 @@
 <mj-section padding="20px 25px" background-color="#CDDDC1"> 
-    <mj-column padding="10px" width="50%">
-        <mj-image src="images/crepes.png" alt="image de la recette" fluid-on-mobile="true" width="480px" padding="0px"/>
+    <mj-column padding="10px">
+        <mj-image src="images/crepes.png" alt="image de la recette" fluid-on-mobile="true" width="600px" padding="0px"/>
     </mj-column>
     <mj-column padding="10px" width="50%">
         <mj-text padding="0" mj-class="T16-400 cBlack">
